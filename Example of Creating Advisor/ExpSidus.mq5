@@ -380,7 +380,7 @@ Print("Price ", mresult.price);
            }
          else
            {
-if(mresult.retcode==10004) //Реквота
+if(mresult.retcode==10004) //Requote
 {
 Print("Requote bid ",mresult.bid);
 Print("Requote ask ",mresult.ask);
