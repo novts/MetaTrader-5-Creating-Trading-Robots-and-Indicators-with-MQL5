@@ -19,8 +19,8 @@ input int ma_period=5;
 input double delta=0.0001;
 input int shift_delta=1;
 int                  ma_shift=0;                   // Shift
-ENUM_MA_METHOD       ma_method=MODE_EMA;           // Soothing type
-ENUM_APPLIED_PRICE   applied_price=PRICE_WEIGHTED;    // Pice type
+ENUM_MA_METHOD       ma_method=MODE_EMA;           // Smoothing type
+ENUM_APPLIED_PRICE   applied_price=PRICE_WEIGHTED;    // Price type
  
 string               symbol=_Symbol;             // Symbol
 ENUM_TIMEFRAMES      period=PERIOD_CURRENT;  // Timeframe
