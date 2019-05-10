@@ -53,11 +53,11 @@ OptimizeMethod = 2; //Optim.:1-Min, other-Max
 ArrayResize(Chromosome,GeneCount+1);
 ArrayInitialize(Chromosome,0);   
 
- //Локальные переменные
+// local variables
   int time_start=(int)GetTickCount(),time_end=0;
   //----------------------------------------------------------------------
 
-  //Запуск главной ф-ии UGA
+ // Run the main function of the UGA
   UGA
   (
    ReplicationPortion_E, // Replication share
